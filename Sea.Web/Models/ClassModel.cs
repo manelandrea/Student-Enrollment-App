@@ -18,6 +18,12 @@ namespace Sea.Web.Models
         [RegularExpression("(Mr|Ms|Mrs)\\s[A-Z][a-z]+$", ErrorMessage = "Teacher name is not valid")]
         public string Teacher { get; set; }
 
-        public  ICollection<StudentModel> StudentDetails { get; set; }
+        public  ICollection<StudentModel> Students { get; set; }
+
+        public ClassModel()
+        {
+            Students = new List<StudentModel>();
+        }
+
     }
 }

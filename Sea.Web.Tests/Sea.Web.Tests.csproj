@@ -82,7 +82,6 @@
     <Compile Include="MockHttpContext.cs" />
     <Compile Include="Models\InMemoryStudentRepository.cs" />
     <Compile Include="Models\InMemoryClassRepository.cs" />
-    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
